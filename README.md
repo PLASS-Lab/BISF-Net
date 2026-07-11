@@ -12,9 +12,8 @@ produced the paper's best results, and reproduces the reported training/test num
 
 ## 🔑 Results highlights
 
-All models trained under one identical protocol (224×224, AdamW, cosine schedule, early
-stopping, seed 42). Baselines are single-forward (std@0.5); **BiSF-Net (Ours)** reports its
-best test-time-augmented (TTA) score.
+All models, including **BiSF-Net (Ours)**, trained under one identical protocol (224×224, AdamW, cosine schedule, early
+stopping, seed 42).
 
 | Benchmark | Metric | BiSF-Net (Ours) | Best baseline |
 |---|---|---|---|
