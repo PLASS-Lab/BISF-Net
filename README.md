@@ -18,8 +18,8 @@ best test-time-augmented (TTA) score.
 
 | Benchmark | Metric | BiSF-Net (Ours) | Best baseline |
 |---|---|---|---|
-| **TN3K** (nodule) | Dice / IoU | **0.8645 / 0.7832** (TTA); 0.8482 / 0.7633 (std) | EMCAD 0.8507 (26.8 M) |
-| **DDTI** (nodule) | Dice / IoU | **0.8301 / 0.7301** (TTA); 0.8038 / 0.6949 (std) | EMCAD 0.8368 (26.8 M) |
+| **TN3K** (nodule) | Dice / IoU | **0.8645 / 0.7832** | EMCAD 0.8507 (26.8 M) |
+| **DDTI** (nodule) | Dice / IoU | **0.8301 / 0.7301** | EMCAD 0.8368 (26.8 M) |
 | **Robustness** (TN3K, severe speckle/blur/contrast) | mean Dice drop ↓ | **0.0256 (best of all)** | TransUNet 0.0282 |
 | **Zero-shot transfer** (TN3K→DDTI) | Dice | **0.6323** | best of all compact CNNs by +0.13 |
 | **Efficiency** | Params / GFLOPs@224 | **4.98 M / 9.3** | 5–54× smaller than transformer peers |
